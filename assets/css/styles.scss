@@ -1236,6 +1236,7 @@ main {
         }
         .welcome-right {
           img {
+            width: 380px;
             padding-top: 70px;
           }
         }
@@ -1249,6 +1250,9 @@ main {
       .search-right {
         padding-left: 15px;
         padding-right: 15px;
+        ul{
+          flex-wrap: wrap;
+        }
         .search-bar {
           input[type="text"] {
             width: 320px;
@@ -1266,7 +1270,7 @@ main {
       }
       .service-cards {
         .service-card {
-          width: 450px;
+          width: 380px;
         }
       }
     }
@@ -1282,7 +1286,7 @@ main {
     .subscription {
       .subs-plans {
         .subs-plan {
-          width: 450px;
+          width: 380px;
         }
       }
     }
@@ -1299,22 +1303,22 @@ main {
           .benefits-cards-left {
             row-gap: 30px;
             .benefits-card {
-              width: 432px;
+              width: 352px;
               flex-direction: unset;
               .benefits-card-desc {
                 text-align: left;
                 padding-left: 24px;
                 padding-right: 0;
-                width: 352px;
+                width: 282px;
               }
             }
           }
           .benefits-cards-right {
             row-gap: 30px;
             .benefits-card {
-              width: 432px;
+              width: 352px;
               .benefits-card-desc {
-                width: 352px;
+                width: 282px;
               }
             }
           }
@@ -1337,7 +1341,7 @@ main {
         //   display: none;
         // }
         .review-card {
-          width: 450px;
+          width: 380px;
           .icon-holder {
             bottom: 230px;
           }
@@ -1350,7 +1354,7 @@ main {
         flex-direction: column;
         row-gap: 10px;
         a {
-          padding: 16px 165px;
+          padding: 16px 125px;
         }
       }
       .instruction-content {
@@ -1358,12 +1362,12 @@ main {
         flex-direction: column;
         .content-left {
           img {
-            width: 450px;
+            width: 380px;
           }
         }
         .content-right {
           margin-left: 0;
-          width: 450px;
+          width: 380px;
         }
       }
     }
@@ -1378,7 +1382,7 @@ main {
           flex-direction: column;
           li {
             img {
-              width: 450px;
+              width: 380px;
             }
           }
         }
@@ -1394,7 +1398,7 @@ main {
         flex-direction: column;
         .blog-card {
           img {
-            width: 450px;
+            width: 380px;
           }
           .blog-info {
             padding-left: 10px;
@@ -1413,7 +1417,7 @@ main {
         flex-direction: column;
         row-gap: 50px;
         .footer-info {
-          width: 450px;
+          width: 350px;
           p {
             margin-bottom: 40px;
             line-height: 1.8;

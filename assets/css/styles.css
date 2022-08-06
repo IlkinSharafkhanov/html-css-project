@@ -1535,6 +1535,7 @@ main footer .footer-content .footer-contact .email {
     padding: 16px;
   }
   main .welcome-part .welcome-top .welcome-right img {
+    width: 380px;
     padding-top: 70px;
   }
   main .domain-search .search-left {
@@ -1544,6 +1545,10 @@ main footer .footer-content .footer-contact .email {
     padding-left: 15px;
     padding-right: 15px;
   }
+  main .domain-search .search-right ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   main .domain-search .search-right .search-bar input[type="text"] {
     width: 320px;
   }
@@ -1552,7 +1557,7 @@ main footer .footer-content .footer-contact .email {
     padding-right: 15px;
   }
   main .services .service-cards .service-card {
-    width: 450px;
+    width: 380px;
   }
   main .service-stats .stats-body {
     display: -webkit-box;
@@ -1565,7 +1570,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 40px;
   }
   main .subscription .subs-plans .subs-plan {
-    width: 450px;
+    width: 380px;
   }
   main .benefits .benefits-left {
     background-size: cover;
@@ -1584,7 +1589,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 30px;
   }
   main .benefits .benefits-right .benefits-cards .benefits-cards-left .benefits-card {
-    width: 432px;
+    width: 352px;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
         -ms-flex-direction: unset;
@@ -1594,16 +1599,16 @@ main footer .footer-content .footer-contact .email {
     text-align: left;
     padding-left: 24px;
     padding-right: 0;
-    width: 352px;
+    width: 282px;
   }
   main .benefits .benefits-right .benefits-cards .benefits-cards-right {
     row-gap: 30px;
   }
   main .benefits .benefits-right .benefits-cards .benefits-cards-right .benefits-card {
-    width: 432px;
+    width: 352px;
   }
   main .benefits .benefits-right .benefits-cards .benefits-cards-right .benefits-card .benefits-card-desc {
-    width: 352px;
+    width: 282px;
   }
   main .customer-reviews .review-heading {
     padding-left: 35px;
@@ -1614,7 +1619,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 70px;
   }
   main .customer-reviews .review-cards .review-card {
-    width: 450px;
+    width: 380px;
   }
   main .customer-reviews .review-cards .review-card .icon-holder {
     bottom: 230px;
@@ -1627,7 +1632,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 10px;
   }
   main .instruction .instruction-section-picker a {
-    padding: 16px 165px;
+    padding: 16px 125px;
   }
   main .instruction .instruction-content {
     display: -webkit-box;
@@ -1639,11 +1644,11 @@ main footer .footer-content .footer-contact .email {
             flex-direction: column;
   }
   main .instruction .instruction-content .content-left img {
-    width: 450px;
+    width: 380px;
   }
   main .instruction .instruction-content .content-right {
     margin-left: 0;
-    width: 450px;
+    width: 380px;
   }
   main .clients .clients-heading {
     padding-left: 35px;
@@ -1656,7 +1661,7 @@ main footer .footer-content .footer-contact .email {
             flex-direction: column;
   }
   main .clients .clients-logo ul li img {
-    width: 450px;
+    width: 380px;
   }
   main .blog .blog-heading {
     padding-left: 35px;
@@ -1669,7 +1674,7 @@ main footer .footer-content .footer-contact .email {
             flex-direction: column;
   }
   main .blog .blog-cards .blog-card img {
-    width: 450px;
+    width: 380px;
   }
   main .blog .blog-cards .blog-card .blog-info {
     padding-left: 10px;
@@ -1685,7 +1690,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 50px;
   }
   main footer .footer-content .footer-info {
-    width: 450px;
+    width: 350px;
   }
   main footer .footer-content .footer-info p {
     margin-bottom: 40px;
