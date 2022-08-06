@@ -1619,7 +1619,7 @@ main footer .footer-content .footer-contact .email {
     row-gap: 70px;
   }
   main .customer-reviews .review-cards .review-card {
-    width: 380px;
+    width: 360px;
   }
   main .customer-reviews .review-cards .review-card .icon-holder {
     bottom: 230px;
@@ -1680,7 +1680,7 @@ main footer .footer-content .footer-contact .email {
     padding-left: 10px;
   }
   main .blog .blog-cards .blog-card .blog-desc .blog-title {
-    width: 310px;
+    width: 270px;
   }
   main footer .footer-content {
     -webkit-box-orient: vertical;
