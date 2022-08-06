@@ -478,9 +478,9 @@ main {
         width: 100px;
         background-color: white;
         border-radius: 50%;
-        top: 300px;
-        left: 225px;
-        transform: scale(1);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         animation: pulse 3s infinite;
         i {
           position: absolute;
@@ -1074,7 +1074,7 @@ main {
           padding-right: 150px;
         }
       }
-      .service-cards{
+      .service-cards {
         .service-card {
           align-self: stretch !important;
           width: 208px;
@@ -1106,10 +1106,6 @@ main {
       .benefits-left {
         width: 100%;
         height: 500px;
-        .play-button {
-          top: 215px;
-          left: 325px;
-        }
       }
       .benefits-right {
         .benefits-cards {
@@ -1199,17 +1195,17 @@ main {
       }
     }
 
-    footer{
-      .footer-content{
+    footer {
+      .footer-content {
         column-gap: 10px;
-        .footer-info{
+        .footer-info {
           width: 168px;
-          .socials{
+          .socials {
             flex-wrap: wrap;
             row-gap: 10px;
           }
         }
-        .footer-nav{
+        .footer-nav {
           column-gap: 45px;
         }
       }
@@ -1217,98 +1213,95 @@ main {
   }
 }
 
-@media (max-width: 480px){
-  main{
-    .welcome-part{
-      .welcome-top{
+@media (max-width: 480px) {
+  main {
+    .welcome-part {
+      .welcome-top {
         padding-bottom: 0;
         flex-direction: column;
-        .welcome-left{
+        .welcome-left {
           text-align: center;
           padding-right: 10px;
-          p{
+          p {
             font-size: 20px;
           }
-          .welcome-buttons{
-            #get-started{
+          .welcome-buttons {
+            #get-started {
               padding: 16px;
             }
-            #read-more{
+            #read-more {
               padding: 16px;
             }
           }
         }
-        .welcome-right{
-          img{
+        .welcome-right {
+          img {
             padding-top: 70px;
           }
         }
       }
     }
 
-    .domain-search{
-      .search-left{
+    .domain-search {
+      .search-left {
         padding-left: 15px;
       }
-      .search-right{
+      .search-right {
         padding-left: 15px;
         padding-right: 15px;
-        .search-bar{
-          input[type="text"]{
+        .search-bar {
+          input[type="text"] {
             width: 320px;
           }
         }
       }
     }
 
-    .services{
-      .service-heading{
-        p{
+    .services {
+      .service-heading {
+        p {
           padding-left: 15px;
           padding-right: 15px;
         }
       }
-      .service-cards{
-        .service-card{
+      .service-cards {
+        .service-card {
           width: 450px;
         }
       }
     }
 
-    .service-stats{
-      .stats-body{
+    .service-stats {
+      .stats-body {
         display: flex;
         flex-direction: column;
         row-gap: 40px;
       }
     }
 
-    .subscription{
-      .subs-plans{
-        .subs-plan{
+    .subscription {
+      .subs-plans {
+        .subs-plan {
           width: 450px;
         }
       }
     }
 
-    .benefits{
-      .benefits-left{
+    .benefits {
+      .benefits-left {
         background-size: cover;
-        .play-button{
-          left: 210px;
-        }
       }
-      .benefits-right{
+      .benefits-right {
         padding: 20px;
-        .benefits-cards{
+        .benefits-cards {
           row-gap: 30px;
           flex-direction: column;
-          .benefits-cards-left{
+          .benefits-cards-left {
             row-gap: 30px;
-            .benefits-card{
+            .benefits-card {
               width: 432px;
               flex-direction: unset;
-              .benefits-card-desc{
+              .benefits-card-desc {
                 text-align: left;
                 padding-left: 24px;
                 padding-right: 0;
@@ -1316,11 +1309,11 @@ main {
               }
             }
           }
-          .benefits-cards-right{
+          .benefits-cards-right {
             row-gap: 30px;
-            .benefits-card{
+            .benefits-card {
               width: 432px;
-              .benefits-card-desc{
+              .benefits-card-desc {
                 width: 352px;
               }
             }
@@ -1329,12 +1322,12 @@ main {
       }
     }
 
-    .customer-reviews{
-      .review-heading{
+    .customer-reviews {
+      .review-heading {
         padding-left: 35px;
         padding-right: 35px;
       }
-      .review-cards{
+      .review-cards {
         padding-left: 15px;
         row-gap: 70px;
         // #2nd-card{
@@ -1343,49 +1336,48 @@ main {
         // #3rd-card{
         //   display: none;
         // }
-        .review-card{
+        .review-card {
           width: 450px;
-          .icon-holder{
+          .icon-holder {
             bottom: 230px;
           }
         }
-        
       }
     }
 
-    .instruction{
-      .instruction-section-picker{
+    .instruction {
+      .instruction-section-picker {
         flex-direction: column;
         row-gap: 10px;
-        a{
+        a {
           padding: 16px 165px;
         }
       }
-      .instruction-content{
+      .instruction-content {
         display: flex;
         flex-direction: column;
-        .content-left{
-          img{
+        .content-left {
+          img {
             width: 450px;
           }
         }
-        .content-right{
+        .content-right {
           margin-left: 0;
           width: 450px;
         }
       }
     }
 
-    .clients{
-      .clients-heading{
+    .clients {
+      .clients-heading {
         padding-left: 35px;
         padding-right: 35px;
       }
-      .clients-logo{
-        ul{
+      .clients-logo {
+        ul {
           flex-direction: column;
-          li{
-            img{
+          li {
+            img {
               width: 450px;
             }
           }
@@ -1393,22 +1385,22 @@ main {
       }
     }
 
-    .blog{
-      .blog-heading{
+    .blog {
+      .blog-heading {
         padding-left: 35px;
         padding-right: 35px;
       }
-      .blog-cards{
+      .blog-cards {
         flex-direction: column;
-        .blog-card{
-          img{
+        .blog-card {
+          img {
             width: 450px;
           }
-          .blog-info{
+          .blog-info {
             padding-left: 10px;
           }
-          .blog-desc{
-            .blog-title{
+          .blog-desc {
+            .blog-title {
               width: 310px;
             }
           }
@@ -1416,23 +1408,23 @@ main {
       }
     }
 
-    footer{
-      .footer-content{
+    footer {
+      .footer-content {
         flex-direction: column;
         row-gap: 50px;
-        .footer-info{
+        .footer-info {
           width: 450px;
-          p{
+          p {
             margin-bottom: 40px;
             line-height: 1.8;
           }
         }
-        .footer-nav{
+        .footer-nav {
           flex-direction: column;
           row-gap: 50px;
         }
-        .footer-contact{
-          .address{
+        .footer-contact {
+          .address {
             width: 350px;
           }
         }
