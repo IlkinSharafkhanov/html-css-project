@@ -601,6 +601,13 @@ footer .footer-content .footer-contact .email {
   }
   .pricing-table .table-content table {
     width: 365px;
+    max-width: 100%;
+  }
+  .pricing-table .table-content table #head-of-table th {
+    padding: 30px 5px;
+  }
+  .pricing-table .table-content table tr td {
+    padding: 20px 5px;
   }
   .questions .questions-heading {
     padding-left: 35px;

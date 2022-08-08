@@ -497,6 +497,17 @@ footer {
         .table-content{
             table{
                 width: 365px;
+                max-width: 100%;
+                #head-of-table{
+                    th{
+                        padding: 30px 5px;
+                    }
+                }
+                tr{
+                    td{
+                        padding: 20px 5px;
+                    }
+                }
             }
         }
     }
