@@ -939,27 +939,37 @@ footer {
       flex-direction: column;
       column-gap: 16px;
       padding: 0 15px;
-      p {
-        font-size: 16px;
-        font-weight: 300;
-      }
-      .address {
-        width: 185px;
-        margin-bottom: 15px;
-        color: rgba(255, 255, 255, 0.7);
-      }
-      // .address::before {
-      //   font-family: "Font Awesome 5 Brands";
-      //   font-weight: 400;
-      //   content: "\f095";
-      // }
-      .phone {
-        color: white;
-        margin-bottom: 15px;
-      }
-      .email {
-        color: white;
-        margin-bottom: 15px;
+      .contact-cards{
+        .contact-card{
+          display: flex;
+          span{
+            padding-top: 2px;
+            margin-right: 8px;
+            color: white;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 300;
+          }
+          .address {
+            width: 185px;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.7);
+          }
+          // .address::before {
+          //   font-family: "Font Awesome 5 Brands";
+          //   font-weight: 400;
+          //   content: "\f095";
+          // }
+          .phone {
+            color: white;
+            margin-bottom: 15px;
+          }
+          .email {
+            color: white;
+            margin-bottom: 15px;
+          }
+        }
       }
     }
   }
@@ -974,6 +984,7 @@ footer {
         justify-content: space-between;
         .burger-menu {
           display: flex;
+          align-items: center;
         }
         .navigations {
           margin-left: 0;
