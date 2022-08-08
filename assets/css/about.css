@@ -1,0 +1,713 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(45deg, rgba(251, 131, 181, 0.95) 0%, rgba(154, 81, 255, 0.95) 100%), url(../img/statsbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+}
+
+header nav {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container {
+  margin: 0 130px 0 130px;
+  padding: 0 15px 0 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header .logo {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header .burger-menu {
+  display: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+
+header .burger-menu i {
+  width: 18px;
+}
+
+header .navigations {
+  margin-left: 350px;
+}
+
+header .navigations ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .navigations ul li {
+  font-size: 14px;
+  list-style: none;
+  padding: 14px 20px;
+}
+
+header .navigations ul li #about {
+  opacity: 0.7;
+}
+
+header .navigations ul li #get-started {
+  background: white;
+  border-radius: 30px;
+  padding: 13px 25px;
+}
+
+header .navigations ul li #get-started span {
+  font-weight: 500;
+  display: inline-block;
+  background: linear-gradient(45deg, rgba(251, 131, 181, 0.8) 0%, rgba(154, 81, 255, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header .welcome-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  padding-top: 150px;
+}
+
+header .welcome-about .mini-nav {
+  margin-bottom: 16px;
+}
+
+header .welcome-about .mini-nav span {
+  font-size: 13px;
+  margin-right: 8px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+header .welcome-about h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.hosting-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.hosting-info .hosting-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hosting-info .hosting-content .info-left img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 570px;
+  height: 460px;
+}
+
+.hosting-info .hosting-content .info-right {
+  padding: 48px;
+  width: 530px;
+  line-height: 1.8;
+}
+
+.hosting-info .hosting-content .info-right .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  padding: 0px 0px 10px 0px;
+}
+
+.hosting-info .hosting-content .info-right .buttons a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2f89fc;
+  border: 1px solid #2f89fc;
+  border-radius: 30px;
+  padding: 8px 16px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.hosting-info .hosting-content .info-right .buttons a:hover {
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
+}
+
+.hosting-info .hosting-content .info-right .buttons #pressed-button {
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
+}
+
+.hosting-info .hosting-content .info-right h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.hosting-info .hosting-content .info-right p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.customer-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background: linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+}
+
+.customer-reviews .review-heading {
+  text-align: center;
+  padding-right: 375px;
+  padding-left: 375px;
+  padding-bottom: 15px;
+  margin-bottom: 45px;
+}
+
+.customer-reviews .review-heading h4 {
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.customer-reviews .review-heading h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.customer-reviews .review-heading p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+  margin-bottom: 80px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.customer-reviews .review-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.customer-reviews .review-cards .review-card {
+  width: 350px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.customer-reviews .review-cards .review-card .reviewer-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../img/person_1.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  margin-bottom: -75px;
+  left: 20px;
+  bottom: 60px;
+}
+
+.customer-reviews .review-cards .review-card #bold-guy {
+  background-image: url(../img/person_2.jpg.webp);
+}
+
+.customer-reviews .review-cards .review-card .icon-holder {
+  position: absolute;
+  background: white;
+  z-index: 1;
+  left: 80px;
+  bottom: 245px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.customer-reviews .review-cards .review-card .icon-holder i {
+  position: absolute;
+  background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 10px;
+  top: 7px;
+  font-size: 24px;
+}
+
+.customer-reviews .review-cards .review-card .review {
+  padding: 24px 24px 48px 24px;
+}
+
+.customer-reviews .review-cards .review-card .review .main-text {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.customer-reviews .review-cards .review-card .review .author {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.customer-reviews .review-cards .review-card .review span {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.specialists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.specialists .specialists-heading {
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 48px;
+  margin-bottom: 48px;
+}
+
+.specialists .specialists-heading h2 {
+  color: #627bed;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.specialists .specialists-heading p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+}
+
+.specialists .specialists-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.specialists .specialists-cards .specialists-card {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.specialists .specialists-cards .specialists-card h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.specialists .specialists-cards .specialists-card span {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.specialists .specialists-cards .specialists-card img {
+  height: 350px;
+  margin-bottom: 16px;
+}
+
+.specialists .specialists-cards .specialists-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+}
+
+footer {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background-color: #233142;
+}
+
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 60px;
+          column-gap: 60px;
+}
+
+footer .footer-content h3 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer .footer-content .footer-info {
+  padding: 0 15px;
+  width: 285px;
+}
+
+footer .footer-content .footer-info p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 90px;
+  font-weight: 300;
+}
+
+footer .footer-content .footer-info .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+footer .footer-content .footer-info .socials a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
+  border-radius: 50%;
+}
+
+footer .footer-content .footer-info .socials a i {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  font-size: 26px;
+  color: white;
+}
+
+footer .footer-content .footer-nav {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 150px;
+          column-gap: 150px;
+}
+
+footer .footer-content .footer-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 32px;
+}
+
+footer .footer-content .footer-nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  -webkit-transition: 0.3 ease;
+  transition: 0.3 ease;
+}
+
+footer .footer-content .footer-nav ul li a:hover {
+  color: white;
+}
+
+footer .footer-content .footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-column-gap: 16px;
+          column-gap: 16px;
+  padding: 0 15px;
+}
+
+footer .footer-content .footer-contact p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+footer .footer-content .footer-contact .address {
+  width: 185px;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .footer-content .footer-contact .phone {
+  color: white;
+  margin-bottom: 15px;
+}
+
+footer .footer-content .footer-contact .email {
+  color: white;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  header .container {
+    background: #000000;
+    margin: 0;
+  }
+  header .container nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .container nav .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .container nav .navigations {
+    margin-left: 0;
+    display: none;
+  }
+  .customer-reviews .review-heading {
+    padding-left: 185px;
+    padding-right: 185px;
+  }
+  .customer-reviews .review-cards .review-card {
+    width: 210px;
+  }
+  .customer-reviews .review-cards .review-card .icon-holder {
+    bottom: 285px;
+  }
+  .hosting-info .hosting-content .info-left img {
+    width: 360px;
+    height: auto;
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .hosting-info .hosting-content .info-right {
+    width: 360px;
+  }
+  .hosting-info .hosting-content .info-right .buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+    width: 140px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .specialists .specialists-heading {
+    padding-left: 185px;
+    padding-right: 185px;
+  }
+  .specialists .specialists-cards .specialists-card {
+    width: 210px;
+  }
+  .specialists .specialists-cards .specialists-card img {
+    height: 210px;
+  }
+  footer .footer-content {
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  footer .footer-content .footer-info {
+    width: 168px;
+  }
+  footer .footer-content .footer-info .socials {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  footer .footer-content .footer-nav {
+    -webkit-column-gap: 45px;
+            column-gap: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hosting-info .hosting-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hosting-info .hosting-content .info-left img {
+    width: 100%;
+  }
+  .hosting-info .hosting-content .info-right {
+    width: 100%;
+  }
+  .hosting-info .hosting-content .info-right .buttons {
+    width: 360px;
+  }
+  .customer-reviews .review-heading {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .customer-reviews .review-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 15px;
+    row-gap: 70px;
+  }
+  .customer-reviews .review-cards .review-card {
+    width: 360px;
+  }
+  .customer-reviews .review-cards .review-card .icon-holder {
+    bottom: 230px;
+  }
+  .specialists .specialists-heading {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .specialists .specialists-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .specialists .specialists-cards .specialists-card {
+    width: 100%;
+  }
+  .specialists .specialists-cards .specialists-card img {
+    height: 390px;
+  }
+  footer .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  footer .footer-content .footer-info {
+    width: 350px;
+  }
+  footer .footer-content .footer-info p {
+    margin-bottom: 40px;
+    line-height: 1.8;
+  }
+  footer .footer-content .footer-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 50px;
+  }
+  footer .footer-content .footer-contact .address {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

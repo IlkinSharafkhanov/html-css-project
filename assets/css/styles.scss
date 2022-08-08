@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap");
-@import url(./mixins.scss);
 
 * {
   margin: 0;
@@ -8,6 +7,37 @@
   font-family: "Work Sans", Arial, sans-serif;
 }
 
+@mixin text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666666;
+  font-weight: 300;
+}
+
+@mixin centering{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin sub-title{
+  color: #627bed;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+
+$pink-to-blue-gradient: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
+$pink-to-blue-gradient-transparent: linear-gradient(45deg,rgba(251, 131, 181, 0.95) 0%,rgba(154, 81, 255, 0.95) 100%);
+$lightblue: #627bed;
+$cyan-to-green-gradient: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
+$blue-to-purple-gradient: linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+$darkerwhite: #e6e6e6;
+$grey: #b3b3b3;
+$white-with-opacity-high: rgba(255, 255, 255, 0.5);
+$white-with-opacity-low: rgba(255, 255, 255, 0.9);
+$darkblue: #233142;
+$brightblue: #2f89fc;
 
 header {
   background: $pink-to-blue-gradient;
@@ -700,6 +730,7 @@ main {
         background: $cyan-to-green-gradient;
       }
       #pressed-button {
+        border: none;
         color: white;
         background: $cyan-to-green-gradient;
       }

@@ -209,7 +209,7 @@ main .domain-search .search-left h3 {
 
 main .domain-search .search-left p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 300;
 }
 
@@ -466,7 +466,7 @@ main .service-stats .stats-body .stats p {
   line-height: 1.8;
   color: #666666;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 main .subscription {
@@ -1015,6 +1015,7 @@ main .instruction .instruction-section-picker a:hover {
 }
 
 main .instruction .instruction-section-picker #pressed-button {
+  border: none;
   color: white;
   background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
 }
