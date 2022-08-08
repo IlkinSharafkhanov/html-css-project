@@ -471,9 +471,10 @@ footer {
   .hosting-info {
     .hosting-content {
       .info-left {
+        width: 360px;
         img {
-          width: 360px;
-          height: auto;
+        height: 100%;
+          width: 100%;
           object-fit: fill !important;
         }
       }

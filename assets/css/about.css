@@ -601,9 +601,12 @@ footer .footer-content .footer-contact .contact-cards .contact-card .email {
   .customer-reviews .review-cards .review-card .icon-holder {
     bottom: 285px;
   }
-  .hosting-info .hosting-content .info-left img {
+  .hosting-info .hosting-content .info-left {
     width: 360px;
-    height: auto;
+  }
+  .hosting-info .hosting-content .info-left img {
+    height: 100%;
+    width: 100%;
     -o-object-fit: fill !important;
        object-fit: fill !important;
   }
